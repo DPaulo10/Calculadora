@@ -1,20 +1,3 @@
-# Calcualdora de IR v3
-
-# Essa calcualdora de ir permite o usuário calcular o IR nas operações de renda variável (day trade e normal).
-
-# Apenas uma operação do tipo Day Trade e uma operação do tipo Normal.
-
-# O usuário deve ser capaz de compreender a diferença entre uma operação do tipo Day Trade e Normal.
-
-# O usuário deve informar o se a operação é de compra ou de venda, se o ripo da operação é Day Trade ou Normal,
-# preço da compra, o preço da venda e a quantidade da venda.
-
-# Caso o usuário informe um tipo de operação diferente de Day Trade e Normal, será pedido um tipo de operação válida
-# até que seja informado uma operação do tipo Day Trade ou Normal.
-
-# O usuário poderá abater do lucro tributável eventual crédito tributário provinientes de prejuízos passados em
-# operações do tipo Normal e Day Trade e ainda não os utilizou para abatimento.
-
 while True:
     operacao = input('A operação é uma operação de compra ou de venda?').title()
     if operacao == 'Compra' or 'Venda':
