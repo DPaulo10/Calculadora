@@ -1,2 +1,2 @@
-# Calculadora
- Calculadora de IR de operações em Renda Variável (ações)
+# Calculadora PU TD
+ Calculadora de preço unitário (PU) de Tesouro Direto (TD)
